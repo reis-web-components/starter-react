@@ -1,0 +1,33 @@
+{
+  "packages": {
+    "dir": "",
+    "menu": [
+      "introduction",
+      [
+        "Theme",
+        [
+          "typography",
+          "colors",
+          "space",
+          "sizes",
+          "shadows",
+          "radii",
+          "border",
+          "z-index"
+        ]
+      ],
+      [
+        "Components",
+        [
+          "button"
+        ]
+      ],
+      [
+        "infrastructure",
+        [
+          "theme"
+        ]
+      ]
+    ]
+  }
+}

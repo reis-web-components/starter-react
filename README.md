@@ -1,2 +1,0 @@
-# starter-react
-starter-react

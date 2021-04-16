@@ -1,0 +1,27 @@
+import { mdx } from '@mdx-js/react';
+import Button from '../src/index';
+import { Playground } from '@divriots/dockit-react/playground';
+import { CssLayout } from '@divriots/dockit-react/mdx-layout-css';
+export default CssLayout;
+
+# Button
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+
+## Usage
+
+```js
+import { Button } from '...';
+```
+
+## Playgrounds
+
+<Playground
+  scope={{ Button }}
+  code={`
+<Button primary>Primary</Button>
+<Button>Secondary</Button>
+  `}
+/>
+
+## Props
