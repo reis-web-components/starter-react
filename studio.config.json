@@ -16,18 +16,9 @@
           "z-index"
         ]
       ],
-      [
-        "Components",
-        [
-          "button"
-        ]
-      ],
-      [
-        "infrastructure",
-        [
-          "theme"
-        ]
-      ]
+      ["Components", ["button", "MyCounter"]],
+      ["infrastructure", ["theme"]]
     ]
   }
 }
+

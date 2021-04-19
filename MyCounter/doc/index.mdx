@@ -1,0 +1,18 @@
+import { mdx } from '@mdx-js/react';
+import { MyCounter } from '../src/index.tsx';
+import { Playground } from '@divriots/dockit-react/playground';
+import { CssLayout } from '@divriots/dockit-react/mdx-layout-css';
+export default CssLayout;
+
+# MyCounter
+
+## Playgrounds
+
+### Web component
+<my-counter></my-counter>
+
+### React component
+<Playground
+  scope={{ MyCounter }}
+  code={`<MyCounter />`}
+/>
